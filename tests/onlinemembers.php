@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+   <head>
+
+   
+   <link rel="stylesheet" href="../css/style.css" />
+   </head>
+   <body>
+
 <?php
 $apiKey = '9ab2bfd13ee147e6b97256efd9f8e2d8';
 
@@ -33,21 +42,23 @@ $apiKey = '9ab2bfd13ee147e6b97256efd9f8e2d8';
  $online = 0;
 
  echo "<body style='background-color:gray;'>";
-
  echo "<div id='memberlist'>";
- echo   "<table>";
- echo       "<tr>";
- echo       "<th>Clan</th>";
- echo       "<th>Platform</th>";
- echo       "<th>Username</th>";
- echo       "</tr>";
- echo       "<tr>";
+ echo   "<table class='table table-sortable'>";
+ echo       "<thead>";
+ echo          "<tr>";
+ echo             "<th>Clan</th>";
+ echo             "<th>Platform</th>";
+ echo             "<th>Username</th>";
+ echo          "</tr>";
+ echo       "</thead>";
+ echo       "<tbody>";
+ echo          "<tr>";
 
  foreach($json1->Response->results as $user1){
      if($user1->isOnline ==1){
-        echo "<th>KappaArmy</th>";
-        echo "<th><img src=https://bungie.net".$user1->destinyUserInfo->iconPath." width='64' height='64'></img></th>";
-        echo "<th>".$user1->destinyUserInfo->bungieGlobalDisplayName."#".$user1->destinyUserInfo->bungieGlobalDisplayNameCode."</th>";
+        echo "<td>KappaArmy</td>";
+        echo "<td><img src=https://bungie.net".$user1->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+        echo "<td>".$user1->destinyUserInfo->bungieGlobalDisplayName."#".$user1->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
         echo "</tr>";
         echo "<tr>";
         $i++;
@@ -57,9 +68,9 @@ $apiKey = '9ab2bfd13ee147e6b97256efd9f8e2d8';
  }
  foreach($json2->Response->results as $user2){
     if($user2->isOnline ==1){
-       echo "<th>KappaArmy II</th>";
-       echo "<th><img src=https://bungie.net".$user2->destinyUserInfo->iconPath." width='64' height='64'></img></th>";
-       echo "<th>".$user2->destinyUserInfo->bungieGlobalDisplayName."#".$user2->destinyUserInfo->bungieGlobalDisplayNameCode."</th>";
+       echo "<td>KappaArmy II</td>";
+       echo "<td><img src=https://bungie.net".$user2->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+       echo "<td>".$user2->destinyUserInfo->bungieGlobalDisplayName."#".$user2->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
        echo "</tr>";
        echo "<tr>";
        $i++;
@@ -69,9 +80,9 @@ $apiKey = '9ab2bfd13ee147e6b97256efd9f8e2d8';
 }
 foreach($json3->Response->results as $user3){
     if($user3->isOnline ==1){
-       echo "<th>KappaArmy III</th>";
-       echo "<th><img src=https://bungie.net".$user3->destinyUserInfo->iconPath." width='64' height='64'></img></th>";
-       echo "<th>".$user3->destinyUserInfo->bungieGlobalDisplayName."#".$user3->destinyUserInfo->bungieGlobalDisplayNameCode."</th>";
+       echo "<td>KappaArmy III</td>";
+       echo "<td><img src=https://bungie.net".$user3->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+       echo "<td>".$user3->destinyUserInfo->bungieGlobalDisplayName."#".$user3->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
        echo "</tr>";
        echo "<tr>";
        $i++;
@@ -81,14 +92,14 @@ foreach($json3->Response->results as $user3){
 }
 foreach($json4->Response->results as $user4){
     if($user4->isOnline ==1){
-       echo "<th>KappaArmy IV</th>";
-       echo "<th><img src=https://bungie.net".$user4->destinyUserInfo->iconPath." width='64' height='64'></img></th>";
-       echo "<th>".$user4->destinyUserInfo->bungieGlobalDisplayName."#".$user4->destinyUserInfo->bungieGlobalDisplayNameCode."</th>";
+       echo "<td>KappaArmy IV</td>";
+       echo "<td><img src=https://bungie.net".$user4->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+       echo "<td>".$user4->destinyUserInfo->bungieGlobalDisplayName."#".$user4->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
        echo "</tr>";
-       echo "<tr>";
        $i++;
     }
-
+   echo "</tbody>";
+   echo "</table>";
 
 }
 
@@ -102,3 +113,6 @@ foreach($json4->Response->results as $user4){
 //foreach($json_data as $users){
 //    echo $users->Response;
 //    echo ",  ";
+?>
+<script src='../js/table-sort.js'></script>
+</body>
