@@ -8,7 +8,10 @@
    <body>
 
 <?php
-$apiKey = '9ab2bfd13ee147e6b97256efd9f8e2d8';
+$configdata = file_get_contents("../config/config.json");
+$configarray = json_decode($configdata, true);
+
+$apiKey = $configarray['BungieAPIToken'];
 
  $ch1 = curl_init();
  curl_setopt($ch1, CURLOPT_URL, 'https://www.bungie.net/Platform/GroupV2/503302/Members/?memberType=None');
