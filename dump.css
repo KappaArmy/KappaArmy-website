@@ -1,0 +1,68 @@
+/* Main Page */
+
+.boxes 
+{
+  width: auto;
+  height: auto;
+  border: 5px solid black;
+  margin: 30px 20px auto;
+  position: relative;
+}
+
+.the-left-box
+  {
+    background: #217f8b;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 5px #bebebe3d;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+  }
+
+  .the-main-box
+  {
+    background: #217f8b;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 5px #bebebe3d;
+    position: relative;
+    padding: 20px;
+  }
+
+
+  .the-right-box
+  {
+    background: #217f8b;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 5px #bebebe3d;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px 20px;
+  }
+
+.content
+{
+  
+}
+
+
+
+
+
+
+.sticky 
+  {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+  }
