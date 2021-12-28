@@ -1,3 +1,5 @@
+
+
 .table-sortable th {
     cursor: pointer;
   }
@@ -20,3 +22,57 @@
     background: rgba(0, 0, 0, 0.1);
   }
   
+
+  /* Main Page */
+
+.the-left-box
+  {
+    background: #217f8b;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 5px #bebebe3d;
+    position: absolute;
+    top: 60px;
+    left: 30;
+    padding: 5px 10px;
+    margin: 10 auto;
+    z-index: 2;
+  }
+
+  .the-main-box
+  {
+    background: #217f8b;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 5px #bebebe3d;
+    position: block;
+    top: 60px;
+    padding: 5px 10px;
+    z-index: 2;
+  }
+
+
+  .the-right-box
+  {
+    background: #217f8b;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 5px #bebebe3d;
+    position: block;
+    top: 60px;
+    right: 30px;
+    padding: 5px 10px;
+    z-index: 2;
+  }
+
+
+
+
+
+
+.sticky 
+  {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+  }
