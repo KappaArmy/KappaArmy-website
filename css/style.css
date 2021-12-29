@@ -23,54 +23,74 @@
   }
   
 
-  /* Main Page */
+/* Main Page */
+
+/* NOTES FOR MYSELF /
+/ - Window width max 1080px
+/ - if it's lower than 1080px switch to mobile view
+*/
+.boxes 
+{
+  width: auto;
+  height: auto;
+  border: 5px solid black;
+  margin: 30px 20px auto;
+  position: relative;
+}
 
 .the-left-box
   {
     background: #217f8b;
+    width: 20%;
+    height: auto;
     border-radius: 5px;
     color: black;
     box-shadow: 1px 1px 5px #bebebe3d;
     position: absolute;
-    top: 60px;
-    left: 30;
-    padding: 5px 10px;
-    margin: 10 auto;
-    z-index: 2;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
   }
 
   .the-main-box
   {
     background: #217f8b;
+    width: 36%;
+    height: auto;
     border-radius: 5px;
     color: black;
     box-shadow: 1px 1px 5px #bebebe3d;
-    position: block;
-    top: 60px;
-    padding: 5px 10px;
-    z-index: 2;
+    position: relative;
+    margin: 0 30% 5px 30%;
+    padding: 20px;
   }
 
 
   .the-right-box
   {
     background: #217f8b;
+    width: 20%;
+    height: 25vm;
     border-radius: 5px;
     color: black;
     box-shadow: 1px 1px 5px #bebebe3d;
-    position: block;
-    top: 60px;
-    right: 30px;
-    padding: 5px 10px;
-    z-index: 2;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
   }
 
+.content
+{
+  
+}
 
 
 
 
 
-.sticky 
+/* NEEDS TO BE FIXED */
+.stickytmp 
   {
     position: -webkit-sticky; /* Safari */
     position: sticky;
