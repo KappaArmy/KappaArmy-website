@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html>
-   <head>
-
-   
-   <link rel="stylesheet" href="../css/style.css" />
-   </head>
-   <body>
-
 <?php
-$configdata = file_get_contents("../config/config.json");
+$configdata = file_get_contents("config/config.json");
 $configarray = json_decode($configdata, true);
 
 $apiKey = $configarray['BungieAPIToken'];
@@ -44,12 +35,11 @@ $apiKey = $configarray['BungieAPIToken'];
  $i = 0;
  $online = 0;
 
- echo "<body style='background-color:gray;'>";
  echo "<div id='memberlist'>";
  echo   "<table class='table table-sortable'>";
  echo       "<thead>";
  echo          "<tr>";
- echo             "<th>Clan</th>";
+// echo             "<th>Clan</th>";
  echo             "<th>Platform</th>";
  echo             "<th>Username</th>";
  echo          "</tr>";
@@ -59,8 +49,8 @@ $apiKey = $configarray['BungieAPIToken'];
 
  foreach($json1->Response->results as $user1){
      if($user1->isOnline ==1){
-        echo "<td>KappaArmy</td>";
-        echo "<td><img src=https://bungie.net".$user1->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+        //echo "<td>KappaArmy</td>";
+        echo "<td><img src=https://bungie.net".$user1->destinyUserInfo->iconPath." width='32' height='32'></img></td>";
         echo "<td>".$user1->destinyUserInfo->bungieGlobalDisplayName."#".$user1->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
         echo "</tr>";
         echo "<tr>";
@@ -71,8 +61,8 @@ $apiKey = $configarray['BungieAPIToken'];
  }
  foreach($json2->Response->results as $user2){
     if($user2->isOnline ==1){
-       echo "<td>KappaArmy II</td>";
-       echo "<td><img src=https://bungie.net".$user2->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+       //echo "<td>KappaArmy II</td>";
+       echo "<td><img src=https://bungie.net".$user2->destinyUserInfo->iconPath." width='32' height='32'></img></td>";
        echo "<td>".$user2->destinyUserInfo->bungieGlobalDisplayName."#".$user2->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
        echo "</tr>";
        echo "<tr>";
@@ -83,8 +73,8 @@ $apiKey = $configarray['BungieAPIToken'];
 }
 foreach($json3->Response->results as $user3){
     if($user3->isOnline ==1){
-       echo "<td>KappaArmy III</td>";
-       echo "<td><img src=https://bungie.net".$user3->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+       //echo "<td>KappaArmy III</td>";
+       echo "<td><img src=https://bungie.net".$user3->destinyUserInfo->iconPath." width='32' height='32'></img></td>";
        echo "<td>".$user3->destinyUserInfo->bungieGlobalDisplayName."#".$user3->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
        echo "</tr>";
        echo "<tr>";
@@ -95,18 +85,17 @@ foreach($json3->Response->results as $user3){
 }
 foreach($json4->Response->results as $user4){
     if($user4->isOnline ==1){
-       echo "<td>KappaArmy IV</td>";
-       echo "<td><img src=https://bungie.net".$user4->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+       //echo "<td>KappaArmy IV</td>";
+       echo "<td><img src=https://bungie.net".$user4->destinyUserInfo->iconPath." width='32' height='32'></img></td>";
        echo "<td>".$user4->destinyUserInfo->bungieGlobalDisplayName."#".$user4->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
        echo "</tr>";
        $i++;
     }
-   echo "</tbody>";
-   echo "</table>";
 
 }
-
- echo "Insgesamt sind ". $i ." online!";
+ echo "</tbody>";
+ echo "</table>";
+ //echo "Insgesamt sind ". $i ." online!";
 
 
 
@@ -118,4 +107,3 @@ foreach($json4->Response->results as $user4){
 //    echo ",  ";
 ?>
 <script src='../js/table-sort.js'></script>
-</body>
