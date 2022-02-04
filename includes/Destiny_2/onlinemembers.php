@@ -36,12 +36,12 @@ $apiKey = $configarray['BungieAPIToken'];
  $online = 0;
 
  echo "<div id='memberlist'>";
- echo   "<table class='table table-sortable'>";
+ echo   "<table class='table'>";
  echo       "<thead>";
  echo          "<tr>";
 // echo             "<th>Clan</th>";
- echo             "<th>Platform</th>";
- echo             "<th>Username</th>";
+ echo             "<th scope='col'>Platform</th>";
+ echo             "<th scope='col'>Username</th>";
  echo          "</tr>";
  echo       "</thead>";
  echo       "<tbody>";

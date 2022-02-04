@@ -5,7 +5,8 @@
 
 <!-- Twitter Stuff -->
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="description" content="Willkommen bei der KappaArmy! Wir nehmen jegliche art von hüter auf!">
 <meta name="theme-color" content="#BEEB9F">
 
@@ -21,4 +22,9 @@
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+
+<!-- Style -->
+<link rel="stylesheet" href="css/mdb.dark.min.css" />
+<link rel="stylesheet" href="css/css.css" />
