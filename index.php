@@ -13,18 +13,13 @@
     <div class="container margin_top">
      <div class="row justify-content-center margin_top">
 
-      <div class="col-lg-4 col-md-12">
-        <h1> Navigation </h1>
-        <p> Soon :eyes: </p>
+      <div class="col-md-6">
+        <h1>Introduction</h1>
+        <p>Heya, wie ihr seht, könnt ihr alle Clanmitglieder sehen, die gerade online sind in Destiny und auf welcher Plattform sie spielen. Ich hoffe, dass es euch dabei hilft zu sehen, wer gerade online ist in Destiny. Die Seite wird definitiv noch angepasst, das ist derzeit nur ein Prototype für die Funktionalität</p>
       </div>
 
-      <div class="col-lg-4 col-md-6">
-        <h1> Introduction and shit </h1>
-        <p> Hi whats up KappaArmy here </p>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <h1> Who's online and shit </h1>
+      <div class="col-md-6">
+        <h1> Spieler, die gerade Online sind </h1>
         <?php include("includes/Destiny_2/onlinenum.php");
         echo "Insgesamt sind ". $i ." online!"; ?>
         <?php include("includes/Destiny_2/onlinemembers.php"); ?>
@@ -39,5 +34,7 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
-  </body>
-</html>
+
+<?php
+include("includes/footer.php");
+?>

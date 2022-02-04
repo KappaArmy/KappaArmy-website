@@ -14,13 +14,7 @@ include("includes/header.php");
 
 
 </head>
-
 <body>
-<div class="grid" style="--bs-columns: 3;">
-  <div>Auto-column</div>
-  <div>Auto-column</div>
-  <div>Auto-column</div>
-</div>
 
 
 <div class="boxes">  
