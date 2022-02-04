@@ -1,41 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!--Meta and OG-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kappaarmy</title>
-    <meta name="description" content="Willkommen bei der KappaArmy! Wir nehmen jegliche art von hüter auf!">
-    <meta name="theme-color" content="#BEEB9F">
-    <link rel="shortcut icon" type="image/png" href="pictures/..."/>
-
-    <meta property="og:title" content="KappaArmy Clan">
-    <meta property="og:site_name" content="KappaArmy.com">
-    <meta property="og:url" content="">
-    <meta property="og:description" content="This is the gateway to the KappaArmy page, You'll find there everything about him :>">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://i.imgur.com/FmUu7iM.png">
-
-    <!-- Twitter Card-->
-    <!--<meta name="twitter:card" content="Knrc's Webpage">
-    <meta name="twitter:creator" content="@Knrcart">
-    <meta name="twitter:title" content="Knrc.art">
-    <meta name="twitter:description" content="This is the gateway to Knrc's Page, You'll find there everything about him :>">
-    <meta name="twitter:image" content="https://i.imgur.com/FmUu7iM.png">
-    <meta name="twitter:image:alt" content="Knrcs OC character">-->
-
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
-    <!-- Styles-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+<?php include("includes/header.php"); ?>
+<?php include("includes/Metadata.php"); ?>
 
   </head>
+  <body>
+    <!-- Start your project here-->
 
-<body>
-Bruh KappaArmy frontpage
-</body>
 
-</html>
+
+
+
+    
+    <div class="container margin_top">
+     <div class="row justify-content-center margin_top">
+
+      <div class="col-md-6">
+        <h1>Introduction</h1>
+        <p>Heya, wie ihr seht, könnt ihr alle Clanmitglieder sehen, die gerade online sind in Destiny und auf welcher Plattform sie spielen. Ich hoffe, dass es euch dabei hilft zu sehen, wer gerade online ist in Destiny. Die Seite wird definitiv noch angepasst, das ist derzeit nur ein Prototype für die Funktionalität</p>
+      </div>
+
+      <div class="col-md-6">
+        <h1> Spieler, die gerade Online sind </h1>
+        <?php include("includes/Destiny_2/onlinenum.php");
+        echo "Insgesamt sind ". $i ." online!"; ?>
+        <?php include("includes/Destiny_2/onlinemembers.php"); ?>
+      </div>
+
+  </div>
+</div>
+</div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+<?php
+include("includes/footer.php");
+?>
