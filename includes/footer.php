@@ -12,6 +12,8 @@
       <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://twitter.com/knrcart" role="button" ><i class="fab fa-twitter"></i></a>
       <!-- Discord -->
       <a class="btn btn-primary btn-floating m-1" style="background-color: #7289da" href="https://discord.gg/Pyn2AYH5Wn" role="button" ><i class="fab fa-discord"></i></a>
+      <!-- Patreon -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #FF424D" href="https://www.patreon.com/KappaArmy" role="button" ><i class="fab fa-patreon"></i></a>
     </section>
     <!-- Section: Social media -->
 
@@ -29,7 +31,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    © 2019 - 2022 Copyright:
+    © 2016 - 2022 Copyright:
     <a class="text-white" href="https://KappaArmy.com/">KappaArmy.com</a>
   </div>
   <!-- Copyright -->
