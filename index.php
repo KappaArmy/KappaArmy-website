@@ -38,6 +38,10 @@
   </div>
 </div>
 </div>
+
+<?php include("includes/Discord/Clanspace_check.php"); ?>
+
+
     <!-- End your project here-->
 
     <!-- MDB -->
