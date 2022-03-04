@@ -38,28 +38,40 @@ $apiKey = $configarray['BungieAPIToken'];
  foreach($json1->Response->results as $user1){
      if($user1->isOnline ==1){
         $i++;
+        $online++;
+     } else {
+        $i++;
      }
 
 
  }
  foreach($json2->Response->results as $user2){
     if($user2->isOnline ==1){
-       $i++;
-    }
+      $i++;
+      $online++;
+   } else {
+      $i++;
+   }
 
 
 }
 foreach($json3->Response->results as $user3){
     if($user3->isOnline ==1){
-       $i++;
-    }
+      $i++;
+      $online++;
+   } else {
+      $i++;
+   }
 
 
 }
 foreach($json4->Response->results as $user4){
     if($user4->isOnline ==1){
-       $i++;
-    }
+      $i++;
+      $online++;
+   } else {
+      $i++;
+   }
 
 }
 ?>
