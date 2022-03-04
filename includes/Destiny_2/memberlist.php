@@ -1,5 +1,5 @@
 <?php
-$configdata = file_get_contents("../config/config.json");
+$configdata = file_get_contents("config/config.json");
 $configarray = json_decode($configdata, true);
 
 $apiKey = $configarray['BungieAPIToken'];
@@ -34,10 +34,6 @@ $apiKey = $configarray['BungieAPIToken'];
 
  $i = 0;
  $online = 0;
-
- echo "<body style='background-color:gray;'>";
-
- echo "<body style='background-color:gray;'>";
  echo "<div id='memberlist'>";
  echo   "<table class='table table-sortable'>";
  echo       "<thead>";
@@ -119,7 +115,8 @@ foreach($json4->Response->results as $user4){
     echo "<tr>";
     $i++;
 }
- echo "Insgesamt ". $i. " Clanmember und davon sind ". $online. " online!";
+echo "</tbody>";
+echo "</table>"; 
 
 
 
