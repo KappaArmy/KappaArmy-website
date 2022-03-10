@@ -18,15 +18,17 @@
       </br>
       </br>
         <h1>Introduction</h1>
-        <p>Heya, wie ihr seht, könnt ihr alle Clanmitglieder sehen, die gerade online sind in Destiny und auf welcher Plattform sie spielen. Ich hoffe, dass es euch dabei hilft zu sehen, wer gerade online ist in Destiny. Die Seite wird definitiv noch angepasst, das ist derzeit nur ein Prototype für die Funktionalität</p>
+        <p>Heya! Wie ihr seht, könnt ihr alle Clanmitglieder sehen, die gerade in Destiny online sind. Zudem, könnt ihr erkennen auf welcher Plattform sie spielen. Die Seite wird definitiv noch angepasst, das ist derzeit nur ein Prototyp für die Funktionalität.</p>
         </br> <!-- Lazy but effective strat idgaf-->
         <h1>Discord</h1>
-        <p>Wir nutzen den Discord als hauptsächliches Kommunikations mittel, damit wir uns Clan und Plattform übergreifend unterhalten können! Wir empfehlen euch unseren Discord beizutreten, wenn ihr an Community Events teilnehmen wollt und schnell nach Leuten sucht, die mit euch Aktivitäten erledigen. </p>
+        <p>Wir nutzen Discord als Hauptkommunikationsmittel, damit wir uns Clan/-Plattformübergreifend unterhalten können! Wir empfehlen euch unserem Discord-Server beizutreten, damit ihr an Community-Events teilnehmen könnt und nach Leuten suchen könnt, die mit euch die Aktivitäten erledigen. Denn zusammen macht das Spiel noch mehr Spaß!</p>
         <a href="https://discord.gg/Pyn2AYH5Wn"><button type="button" class="btn btn-primary btn-rounded" style="background-color: #7289da">Discord</button></a>
         </br>
         </br>
         <h1>Support</h1>
-        <p>Falls ihr meine Projekte unterstützen wollt, könnt ihr es gerne auf Patreon machen! Es hilft mir sehr, die Domain und die Website online zu halten und weiter an diesem Projekt zu arbeiten :D</p>
+        <p>Falls ihr meine Projekte unterstützen wollt, könnt ihr es gerne auf Patreon machen! Es hilft mir sehr, die Domain und die Website online zu halten, um weiter an diesem Projekt zu arbeiten :D</p>
+        </br>
+        <p>Gute Loot wünscht Knrc o/</p>
         <a href="https://patreon.com/KappaArmy"><button type="button" class="btn btn-primary btn-rounded" style="background-color: #FF424D">Patreon</button></a>
         </br>
         </br>
