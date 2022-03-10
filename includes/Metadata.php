@@ -7,17 +7,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
-<meta name="description" content="Willkommen bei der KappaArmy! Wir nehmen jegliche art von hüter auf!">
+<meta name="description" content="Willkommen bei der KappaArmy! Wir nehmen jegliche art von hüter auf! Kommt einfach vorbei hehe :P">
 <meta name="theme-color" content="#BEEB9F">
 
 
 <!-- Open graph stuff -->
 <meta property="og:title" content="KappaArmy Clan">
-<meta property="og:site_name" content="KappaArmy.com">
-<meta property="og:url" content="">
-<meta property="og:description" content="This is the gateway to the KappaArmy page, You'll find there everything about him :>">
+<meta property="og:site_name" content="KappaArmy.de">
+<meta property="og:url" content="https://kappaarmy.de">
+<meta property="og:description" content="Willkommen auf der KappaArmy website! Fühlt euch wie zuhause!">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://i.imgur.com/FmUu7iM.png">
+<meta property="og:image" content="https://i.imgur.com/bIaAQcu.png">
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
