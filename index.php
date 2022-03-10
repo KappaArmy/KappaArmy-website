@@ -31,6 +31,23 @@
         </br>
         </br>
         <p> Aktive Supporter dieser Website: </p>
+        <?php
+          include("includes/subscribers.php");
+          foreach($tier1 as $value){
+            echo "<p>- " . $value . "</p>";
+
+          }
+          foreach($tier2 as $value){
+            echo "<p style='color:#daa520;'>- " . $value . "</p>";
+
+          }
+          foreach($tier3 as $value){
+            echo "<p style='color:#80E8FF;'>- " . $value . "</p>";
+
+          }
+    
+
+        ?>
         </br>
         </br>
       </div>
