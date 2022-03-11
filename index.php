@@ -28,7 +28,7 @@
         <h1>Support</h1>
         <p>Falls ihr meine Projekte unterstützen wollt, könnt ihr es gerne auf Patreon machen! Es hilft mir sehr, die Domain und die Website online zu halten, um weiter an diesem Projekt zu arbeiten :D</p>
         </br>
-        <p>Gute Loot wünscht Knrc o/</p>
+        <p>Guten Loot wünscht Knrc o/</p>
         <a href="https://patreon.com/KappaArmy"><button type="button" class="btn btn-primary btn-rounded" style="background-color: #FF424D">Patreon</button></a>
         </br>
         </br>
