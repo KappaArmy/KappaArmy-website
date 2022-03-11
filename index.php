@@ -59,7 +59,7 @@
       </br>
         <h1> Spieler, die gerade Online sind </h1>
         <?php include("includes/Destiny_2/onlinenum.php");
-          if($online = 0){
+          if($online == 0){
             echo "Derzeit ist niemand Online :<";
           } else {
             echo "Insgesamt sind ". $online ." online!"; 
