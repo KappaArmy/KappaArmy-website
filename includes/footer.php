@@ -13,7 +13,7 @@
       <!-- Discord -->
       <a class="btn btn-primary btn-floating m-1" style="background-color: #7289da" href="https://discord.gg/Pyn2AYH5Wn" role="button" ><i class="fab fa-discord"></i></a>
       <!-- Patreon -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #FF424D" href="https://www.patreon.com/KappaArmy" role="button" ><i class="fab fa-patreon"></i></a>
+      <!--<a class="btn btn-primary btn-floating m-1" style="background-color: #FF424D" href="https://www.patreon.com/KappaArmy" role="button" ><i class="fab fa-patreon"></i></a>-->
     </section>
     <!-- Section: Social media -->
 

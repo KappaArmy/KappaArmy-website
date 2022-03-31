@@ -25,28 +25,28 @@
         <a href="https://discord.gg/Pyn2AYH5Wn"><button type="button" class="btn btn-primary btn-rounded" style="background-color: #7289da">Discord</button></a>
         </br>
         </br>
-        <h1>Support</h1>
+        <!--<h1>Support</h1>
         <p>Falls ihr meine Projekte unterstützen wollt, könnt ihr es gerne auf Patreon machen! Es hilft mir sehr, die Domain und die Website online zu halten, um weiter an diesem Projekt zu arbeiten :D</p>
         </br>
         <p>Guten Loot wünscht Knrc o/</p>
         <a href="https://patreon.com/KappaArmy"><button type="button" class="btn btn-primary btn-rounded" style="background-color: #FF424D">Patreon</button></a>
         </br>
         </br>
-        <p> Aktive Supporter dieser Website: </p>
+        <p> Aktive Supporter dieser Website: </p>-->
         <?php
-          include("includes/subscribers.php");
-          foreach($tier1 as $value){
-            echo "<p>- " . $value . "</p>";
-
-          }
-          foreach($tier2 as $value){
-            echo "<p style='color:#daa520;'>- " . $value . "</p>";
-
-          }
-          foreach($tier3 as $value){
-            echo "<p style='color:#80E8FF;'>- " . $value . "</p>";
-
-          }
+          //include("includes/subscribers.php");
+          //foreach($tier1 as $value){
+          //  echo "<p>- " . $value . "</p>";
+//
+          //}
+          //foreach($tier2 as $value){
+          //  echo "<p style='color:#daa520;'>- " . $value . "</p>";
+//
+          //}
+          //foreach($tier3 as $value){
+          //  echo "<p style='color:#80E8FF;'>- " . $value . "</p>";
+//
+          //}
     
 
         ?>
