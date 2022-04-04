@@ -1,4 +1,5 @@
 <?php
+include("includesw/subscribers.php");
 $configdata = file_get_contents("config/config.json");
 $configarray = json_decode($configdata, true);
 
@@ -31,6 +32,13 @@ $apiKey = $configarray['BungieAPIToken'];
  curl_setopt($ch4, CURLOPT_HTTPHEADER, array('X-API-Key: ' . $apiKey));
 
  $json4 = json_decode(curl_exec($ch4));
+ 
+ $ch5 = curl_init();
+ curl_setopt($ch5, CURLOPT_URL, 'https://www.bungie.net/Platform/GroupV2/4848096/Members/?memberType=None');
+ curl_setopt($ch5, CURLOPT_RETURNTRANSFER, true);
+ curl_setopt($ch5, CURLOPT_HTTPHEADER, array('X-API-Key: ' . $apiKey));
+
+ $json5 = json_decode(curl_exec($ch5));
 
  $i = 0;
  $online = 0;
@@ -103,7 +111,24 @@ foreach($json4->Response->results as $user4){
     echo "<td><img src=https://bungie.net".$user4->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
     echo "<td>".$user4->destinyUserInfo->bungieGlobalDisplayName."#".$user4->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
 
-    if($user1->isOnline == 1){
+    if($user4->isOnline == 1){
+        $online++;
+        $userstatus = "Online";
+    } else {
+        $userstatus = "sleep";
+    }
+
+     echo "<td>".$userstatus."</td>";
+    echo "</tr>";
+    echo "<tr>";
+    $i++;
+}
+foreach($json5->Response->results as $user5){
+    echo "<td>KappaArmy V</td>";
+    echo "<td><img src=https://bungie.net".$user5->destinyUserInfo->iconPath." width='64' height='64'></img></td>";
+    echo "<td>".$user5->destinyUserInfo->bungieGlobalDisplayName."#".$user5->destinyUserInfo->bungieGlobalDisplayNameCode."</td>";
+
+    if($user5->isOnline == 1){
         $online++;
         $userstatus = "Online";
     } else {
