@@ -22,7 +22,7 @@
         </br> <!-- Lazy but effective strat idgaf-->
         <h1>Discord</h1>
         <p>Wir nutzen Discord als Hauptkommunikationsmittel, damit wir uns Clan/-Plattformübergreifend unterhalten können! Wir empfehlen euch unserem Discord-Server beizutreten, damit ihr an Community-Events teilnehmen könnt und nach Leuten suchen könnt, die mit euch die Aktivitäten erledigen. Denn zusammen macht das Spiel noch mehr Spaß!</p>
-        <a href="https://discord.gg/Pyn2AYH5Wn"><button type="button" class="btn btn-primary btn-rounded" style="background-color: #7289da">Discord</button></a>
+        <a href="https://discord.gg/qAFXm7Dptx "><button type="button" class="btn btn-primary btn-rounded" style="background-color: #7289da">Discord</button></a>
         </br>
         </br>
         <!--<h1>Support</h1>
